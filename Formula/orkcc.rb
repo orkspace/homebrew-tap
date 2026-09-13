@@ -6,21 +6,21 @@ class Orkcc < Formula
   on_macos do
     on_arm do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.7.17/orkcc_darwin_arm64.tar.gz"
-      sha256 "da95780121aaa921de6c8625e50c6580d251ae3f9eb11b74e186d78f74e73199"
+      sha256 "943c1d6643c4dcd0bd93857c338c0b27bb657bdc54dd16808fd282a815bd40af"
     end
     on_intel do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.7.17/orkcc_darwin_amd64.tar.gz"
-      sha256 "431f132f7bf9d91dd02210df4d0522378766d075e90b4012214abaa960ea564f"
+      sha256 "ab640135557bbd5a119ff5c3e97728da53faefd82e8c1b155ef49a10b9353b59"
     end
   end
   on_linux do
     on_arm do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.7.17/orkcc_linux_arm64.tar.gz"
-      sha256 "bf7104a24831f5aec351f022fc675c138dbdf0b3457062cd392c0e58019895f8"
+      sha256 "666a757f068ff55aeddcf10a9d8a9522ed6ebfdd312c2cacbe81428087cdf1f2"
     end
     on_intel do
       url    "https://github.com/orkspace/orkestra/releases/download/v0.7.17/orkcc_linux_amd64.tar.gz"
-      sha256 "dc168c040ce259f5f44feb07aa363eff6a557664696dfc6c9be2d157cccd3de5"
+      sha256 "aaf52665c0c4b9745e1d43530e445a5e27de938c4c2e5500c5730c9905c7296e"
     end
   end
   def install
